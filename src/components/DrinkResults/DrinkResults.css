@@ -1,0 +1,24 @@
+#DrinkResults{
+    border: solid 2px red;
+    margin: 0 auto;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 1600px;
+    place-items: center;
+}
+.DrinkResults_card {
+    border: solid 2px black;
+    padding: 1rem;
+    width:200px;
+}
+.DrinkResults_img{
+    width: 200px;
+}
+table, th, td {
+    border:1px solid black;
+}
+
+.test{
+    border: solid 2px black;
+}
